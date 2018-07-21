@@ -81,6 +81,7 @@ hr {
 }
 
 /*NAVBAR below this line*/
+
 #navbar {
 	overflow: hidden;
 	background-color: white;
@@ -91,18 +92,15 @@ hr {
 }
 
 nav {
-	display: inline-block;
-	
-	
+	display: inline-block;	
 }
+
 .nav {
-	
 	text-decoration: none;
 	color: lightgrey;
 	font-size: 14px;
 	padding-right: 60px;
 	text-align: left;
-	
 }
 
 .logo {
@@ -112,7 +110,9 @@ nav {
 	margin-left: 50px;
 	transform: scale(0.60, 0.60);
 }
+
 /*HEADING SECTION below this line*/
+
 h1 {
 	font-size: 56px;
 }
@@ -125,8 +125,7 @@ h1 {
 #circle {
 	transform: scale(0.90, 0.90);
 	display: inline-block;
-	margin-left: 120px;
-	
+	margin-left: 120px;	
 }
 
 #title-button {
@@ -136,8 +135,7 @@ h1 {
 	display: inline-block;
 	text-align: center;
 	margin-right: 60px;
-	margin-left: 60px;	
-	
+	margin-left: 60px;		
 }
 
 
@@ -145,11 +143,11 @@ button {
 	border: solid 1px gray;
 	border-radius: 0px;
 	color: gray;
-	padding: 2px 32px;
-	
+	padding: 2px 32px;	
 }
 
 /*FEATURES and ABOUT SECTIONS below this line*/
+
 .features, .about {
 	display: inline-block;
 	width: 50%;
@@ -160,9 +158,7 @@ button {
 .features {
 	float: left;
 	text-align: left;
-	
 }
-
 
 .about {
 	float: right;
@@ -171,8 +167,8 @@ button {
 
 span {
 	font-weight: bold;
-	
 }
+
 /*MIDDLE BLOCK IMAGE*/
 
 .middle-image {
