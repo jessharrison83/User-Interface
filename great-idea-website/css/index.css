@@ -52,15 +52,190 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+html, body, button {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, span {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+
+/*
+div {
+	border: solid 3px aqua;	
+}*/
+
+hr {
+	width: 100%;
+}
+
+/*NAVBAR below this line*/
+#navbar {
+	overflow: hidden;
+	background-color: white;
+	position: fixed;
+	width: 880px;
+	top: 0;
+	z-index: 1;
+}
+
+nav {
+	display: inline-block;
+	
+	
+}
+.nav {
+	
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 14px;
+	padding-right: 60px;
+	text-align: left;
+	
+}
+
+.logo {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	margin-left: 50px;
+	transform: scale(0.60, 0.60);
+}
+/*HEADING SECTION below this line*/
+h1 {
+	font-size: 56px;
+}
+
+#title {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+#circle {
+	transform: scale(0.90, 0.90);
+	display: inline-block;
+	margin-left: 120px;
+	
+}
+
+#title-button {
+	position: relative;
+	bottom: 60px;
+	left: 40px;
+	display: inline-block;
+	text-align: center;
+	margin-right: 60px;
+	margin-left: 60px;	
+	
+}
+
+
+button {
+	border: solid 1px gray;
+	border-radius: 0px;
+	color: gray;
+	padding: 2px 32px;
+	
+}
+
+/*FEATURES and ABOUT SECTIONS below this line*/
+.features, .about {
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.features {
+	float: left;
+	text-align: left;
+	
+}
+
+
+.about {
+	float: right;
+	text-align: left;
+}
+
+span {
+	font-weight: bold;
+	
+}
+/*MIDDLE BLOCK IMAGE*/
+
+.middle-image {
+	display: block;
+}
+
+/*SERVICES PRODUCT VISION below this line*/
+
+.services, .product, .vision {
+	width: 33%;
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+/*CONTACT and COPYRIGHT below this line */
+
+h3 {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#copyright {
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 14px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
